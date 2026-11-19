@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — hello.world</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;color:#f7f8ff;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 15% 15%,#49358b66,transparent 38%),radial-gradient(ellipse at 85% 80%,#007f7960,transparent 36%),#090d1a}
+.wrap{width:min(1000px,calc(100% - 36px));margin:auto;padding:28px 0 55px}nav{display:flex;justify-content:space-between;align-items:center;padding:8px 0 65px}.brand{font-weight:850;font-size:1.15rem;letter-spacing:-.05em;color:white;text-decoration:none}.brand span{color:#9e8bff}.links{display:flex;gap:24px}.links a{color:#aeb4ca;text-decoration:none}.links a:hover,.links .active{color:white}
+.kicker{color:#bdb0ff;text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:700}h1{font-size:clamp(3rem,8vw,5.8rem);line-height:.98;letter-spacing:-.075em;margin:18px 0}h1 span{background:linear-gradient(100deg,#c7baff,#83f1e4);background-clip:text;color:transparent}.intro{max-width:700px;color:#aeb4ca;font-size:1.1rem;line-height:1.8;margin-bottom:48px}
+.panel{border:1px solid #ffffff20;border-radius:24px;background:linear-gradient(145deg,#ffffff16,#ffffff08);box-shadow:0 24px 70px #0005,inset 0 1px #ffffff12;backdrop-filter:blur(16px)}.story{padding:34px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}h2{margin:0 0 14px;font-size:1.65rem;letter-spacing:-.04em}.story p,.card p{color:#aeb4ca;line-height:1.8;margin:0}.quote{padding:25px;border-radius:18px;background:#8f7cff1a;border:1px solid #a896ff30;color:#ded8ff;font-size:1.2rem;line-height:1.55}.quote small{display:block;margin-top:14px;color:#aaa0d4;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
+.section{margin:54px 0 20px}.section h2{margin-top:10px;font-size:1.9rem}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;min-height:185px}.icon{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;margin-bottom:20px;background:#8f7cff26;color:#c7baff;font-size:1.2rem}.card h3{margin:0 0 9px}
+footer{margin-top:58px;padding-top:22px;border-top:1px solid #ffffff1a;color:#7c849c;font-size:.82rem;display:flex;justify-content:space-between;gap:14px}
+@media(max-width:700px){.story{grid-template-columns:1fr}.cards{grid-template-columns:1fr}nav{padding-bottom:45px}}@media(max-width:440px){.story{padding:24px}.links{gap:14px}.links a{font-size:.88rem}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="index.html">hello<span>.</span>world</a><div class="links"><a href="index.html">Home</a><a class="active" href="about.html">About</a></div></nav>
+<header><div class="kicker">A little introduction</div><h1>Curious minds.<br><span>Creative code.</span></h1><p class="intro">Welcome to our little corner of the internet. This page is a simple introduction to the ideas behind this project — built to learn, experiment, and turn small ideas into something real.</p></header>
+<section class="panel story"><div><h2>Our story</h2><p>Every great project starts with a first line of code. This one began with a simple “Hello, World!” and grew into a space to explore web design, creativity, and the power of building things for the web. We believe the best way to learn is to stay curious and keep creating.</p></div><div class="quote">“The secret of getting ahead is getting started.”<small>— Arpit kushwah </small></div></section>
+<div class="section"><div class="kicker">What matters to us</div><h2>Built around three ideas</h2></div>
+<section class="cards">
+<article class="panel card"><div class="icon">✦</div><h3>Stay curious</h3><p>Ask questions, explore new tools, and never stop learning how things work.</p></article>
+<article class="panel card"><div class="icon">⌘</div><h3>Build with purpose</h3><p>Turn ideas into useful experiences, one thoughtful detail at a time.</p></article>
+<article class="panel card"><div class="icon">↗</div><h3>Keep improving</h3><p>Experiment, learn from mistakes, and make every version a little better.</p></article>
+</section>
+
+</div>
+</body>
+</html>
